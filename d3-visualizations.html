@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D3.js Visualizations | Movie Trends</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Analyzing Movie Industry Trends and Box Office Performance</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="visualizations.html">Tableau Visualizations</a>
+      <a href="d3-visualizations.html" class="active">D3.js Visualizations</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="d3-overview">
+      <h2>Explore Trends with D3.js</h2>
+      <p>
+        Dive into a series of interactive charts built using D3.js, covering different aspects of the movie industry — from top grossing movies to genre trends, revenue patterns, and audience ratings.
+      </p>
+    </section>
+
+    <section id="d3-visualizations">
+      <h2>Visualizations</h2>
+
+      <div class="viz-container" id="bar-chart">
+        <h3>Top 10 Movies by Worldwide Gross (Bar Chart)</h3>
+        <svg width="1000" height="500"></svg>
+      </div>
+
+      <div class="viz-container" id="bubble-chart">
+        <h3>Budget vs Revenue (Bubble Chart)</h3>
+        <svg width="1000" height="500"></svg>
+      </div>
+
+      <div class="viz-container" id="line-chart">
+        <h3>Average Ratings Over Years (Line Chart)</h3>
+        <svg width="1000" height="500"></svg>
+      </div>
+
+      <div class="viz-container" id="pie-chart">
+        <h3>Genre Distribution (Pie Chart)</h3>
+        <svg width="1000" height="600"></svg>
+      </div>
+
+      <div class="viz-container" id="treemap">
+        <h3>Genres Breakdown (Treemap)</h3>
+        <svg width="900" height="500"></svg>
+      </div>
+
+      <div class="viz-container" id="stacked-area-chart">
+        <h3>Movie Genre Trends Over Years (Stacked Area Chart)</h3>
+        <svg width="900" height="500"></svg>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Team-7 | Movie Trends Analysis. All rights reserved.</p>
+  </footer>
+
+  <!-- D3 Visualizations Scripts -->
+  <script src="d3/barChart.js"></script>
+  <script src="d3/bubbleChart.js"></script>
+  <script src="d3/lineChart.js"></script>
+  <script src="d3/pieChart.js"></script>
+  <script src="d3/treemap.js"></script>
+  <script src="d3/stack.js"></script>
+</body>
+</html>

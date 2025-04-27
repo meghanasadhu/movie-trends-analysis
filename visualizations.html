@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visualizations | Movie Trends Analysis</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Page-specific style overrides -->
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    main {
+      height: calc(100vh - 120px); /* full height minus header & footer */
+      padding: 0;
+      margin: 0 auto;
+      max-width: 1000px;
+    }
+
+    .viz-container, .viz-wrapper, .tableauViz {
+      height: 100%;
+      width: 100%;
+    }
+
+    .tableauPlaceholder {
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Analyzing Movie Industry Trends and Box Office Performance</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="visualizations.html" class="active">Tableau Visualizations</a>
+      <a href="d3-visualizations.html">D3.js Visualizations</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="viz-container">
+      <div class="viz-wrapper">
+        <div class='tableauPlaceholder' id='vizContainer'>
+          <noscript>
+            <a href='#'>
+              <img alt='Movies released per Year' src='https://public.tableau.com/static/images/Mo/MoviesAnalysis_17456910231620/MoviesreleasedperYear/1_rss.png' style='border: none' />
+            </a>
+          </noscript>
+          <object class='tableauViz'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='MoviesAnalysis_17456910231620/MoviesreleasedperYear' />
+            <param name='tabs' value='yes' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https://public.tableau.com/static/images/Mo/MoviesAnalysis_17456910231620/MoviesreleasedperYear/1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+          </object>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Team-7 | Movie Trends Analysis</p>
+  </footer>
+
+  <script type="text/javascript" src="https://public.tableau.com/javascripts/api/viz_v1.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
