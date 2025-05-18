@@ -1,15 +1,15 @@
 1. Introduction  
 Project Title:
-"Analyzing Movie Industry Trends and Box Office Performance using Visualization Techniques"
+"Analyzing Movie Industry Trends and Box Office Performance using Visualization Techniques"  
 Domain:
 This project focuses on movie industry data from the entertainment and media domain through an examination of various film specifications including genres and ratings together with budgeting and revenue and local box office revenues across different regions and languages. This research analyzes worldwide movie patterns alongside financial behavior that occurred throughout multiple years.
 2. Problem Statement  
 The project assesses global developments regarding movie genres and revenue patterns together with audience preference patterns. The research established which genres deliver optimal both critical accloation and financial returns and studied relationships between rating scores and revenue success. Research divides its analysis between information about geographical regions and language trends to empower decision-making for stakeholders.
 3. Methodology  
-1.	Data Collection: Merged Movies Dataset (box office, genre, votes)
-2.	Data Processing: Cleaning, Transformation
-3.	Data Visualization: Bar Chart, Pie Chart, Treemap, Heatmap, Stacked Area Chart, Line Chart, Scatter Plot, Choropleth Map
-4.	Interactive Storytelling: D3.js visualizations embedded on a webpage
+   - Data Collection: Merged Movies Dataset (box office, genre, votes)
+	  - Data Processing: Cleaning, Transformation
+   - Data Visualization: Bar Chart, Pie Chart, Treemap, Heatmap, Stacked Area Chart, Line Chart, Scatter Plot, Choropleth Map
+   - Interactive Storytelling: D3.js visualizations embedded on a webpage
  
 
 4. Data Abstraction  
