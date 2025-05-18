@@ -1,18 +1,18 @@
-1. Introduction
+1. Introduction  
 Project Title:
 "Analyzing Movie Industry Trends and Box Office Performance using Visualization Techniques"
 Domain:
 This project focuses on movie industry data from the entertainment and media domain through an examination of various film specifications including genres and ratings together with budgeting and revenue and local box office revenues across different regions and languages. This research analyzes worldwide movie patterns alongside financial behavior that occurred throughout multiple years.
-2. Problem Statement
+2. Problem Statement  
 The project assesses global developments regarding movie genres and revenue patterns together with audience preference patterns. The research established which genres deliver optimal both critical accloation and financial returns and studied relationships between rating scores and revenue success. Research divides its analysis between information about geographical regions and language trends to empower decision-making for stakeholders.
-3. Methodology
+3. Methodology  
 1.	Data Collection: Merged Movies Dataset (box office, genre, votes)
 2.	Data Processing: Cleaning, Transformation
 3.	Data Visualization: Bar Chart, Pie Chart, Treemap, Heatmap, Stacked Area Chart, Line Chart, Scatter Plot, Choropleth Map
 4.	Interactive Storytelling: D3.js visualizations embedded on a webpage
  
 
-4. Data Abstraction
+4. Data Abstraction  
 Dataset Details:
 Type: Structured Dataset
 Dataset 1: https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset
@@ -35,12 +35,12 @@ Kaggle – Box Office Dataset 2000–2024
 Data Transformation using Python:
 
 1.	All date attributes received time and date elements as their new format.
-2.	2.Extracted year from date fields
-3.	3.The third data processing step eliminated missing values which occurred in revenue and genre categories.
-4.	4.Normalized revenue columns
-5.	5.The system retrieved the main genre from the list containing multiple genre entities.
-6.	6.The outlier data points were managed removing unrealistic entries between budget and revenue numbers.
-5. Task Abstraction
+2.	Extracted year from date fields
+3.	The third data processing step eliminated missing values which occurred in revenue and genre categories.
+4.	Normalized revenue columns
+5.	The system retrieved the main genre from the list containing multiple genre entities.
+6.	The outlier data points were managed removing unrealistic entries between budget and revenue numbers.  
+5. Task Abstraction  
 Target:
 The Analyze movie dataset evaluates patterns of business success and critical ratings development in addition to genre trends and national and linguistic market distributions.
    
@@ -52,7 +52,7 @@ Actions:
 •	Used interactive visualization to create dynamic visual storytelling.
  
 
-6. Implementation Using Tools
+6. Implementation Using Tools  
 Tools Used:
 -Data Cleaning & Transformation: Python (Pandas, Seaborn)
 -Visualization Tool: D3.js
@@ -72,6 +72,6 @@ Implementation Steps:
   - Bubble Chart (Displays Budget vs Revenue)
 4.Added interactivity: hover tooltips, clickable legends, filters
 5.Embedded visualizations into a webpage
-7. Results and Analysis
+7. Results and Analysis  
 Tableau: https://public.tableau.com/app/profile/meghana.sadhu7906/viz/MoviesAnalysis_17456910231620/MoviesreleasedperYear
 Webpage : https://meghanasadhu.github.io/movie-trends-analysis/index.html
