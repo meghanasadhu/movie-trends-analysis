@@ -33,13 +33,12 @@ Kaggle – IMDb Movies Dataset
 Kaggle – Box Office Dataset 2000–2024
 
 Data Transformation using Python:
-
-1.	All date attributes received time and date elements as their new format.
-2.	Extracted year from date fields
-3.	The third data processing step eliminated missing values which occurred in revenue and genre categories.
-4.	Normalized revenue columns
-5.	The system retrieved the main genre from the list containing multiple genre entities.
-6.	The outlier data points were managed removing unrealistic entries between budget and revenue numbers.  
+* All date attributes received time and date elements as their new format.
+* Extracted year from date fields
+* The third data processing step eliminated missing values which occurred in revenue and genre categories.
+* Normalized revenue columns
+* The system retrieved the main genre from the list containing multiple genre entities.
+* The outlier data points were managed removing unrealistic entries between budget and revenue numbers.  
 5. Task Abstraction  
 Target:
 The Analyze movie dataset evaluates patterns of business success and critical ratings development in addition to genre trends and national and linguistic market distributions.
@@ -54,14 +53,14 @@ Actions:
 
 6. Implementation Using Tools  
 Tools Used:
--Data Cleaning & Transformation: Python (Pandas, Seaborn)
--Visualization Tool: D3.js
--Webpage Development: HTML, CSS, JavaScript
+- Data Cleaning & Transformation: Python (Pandas, Seaborn)
+- Visualization Tool: D3.js
+- Webpage Development: HTML, CSS, JavaScript
 
 Implementation Steps:
-1.Merged datasets and cleaned in Python
-2.Loaded final CSV into D3.js environment
-3.Created visualizations:
+* Merged datasets and cleaned in Python
+* Loaded final CSV into D3.js environment
+* Created visualizations:
   - Pie Chart (Genre Distribution)
   - Treemap (Revenue by Genre)
   - Correlation Matrix (Movie Financial and Rating Correlations)
@@ -70,8 +69,8 @@ Implementation Steps:
   - Scatter Plot (Rating vs Revenue)
   - Bar Charts (Top Movies)
   - Bubble Chart (Displays Budget vs Revenue)
-4.Added interactivity: hover tooltips, clickable legends, filters
-5.Embedded visualizations into a webpage
+* Added interactivity: hover tooltips, clickable legends, filters
+* Embedded visualizations into a webpage
 7. Results and Analysis  
 Tableau: https://public.tableau.com/app/profile/meghana.sadhu7906/viz/MoviesAnalysis_17456910231620/MoviesreleasedperYear
 Webpage : https://meghanasadhu.github.io/movie-trends-analysis/index.html
