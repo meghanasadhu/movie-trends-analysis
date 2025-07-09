@@ -1,6 +1,6 @@
 1. Introduction  
-Project Title:
-"Analyzing Movie Industry Trends and Box Office Performance using Visualization Techniques"  
+__Project Title:
+"Analyzing Movie Industry Trends and Box Office Performance using Visualization Techniques"__  
 Domain:
 This project focuses on movie industry data from the entertainment and media domain through an examination of various film specifications including genres and ratings together with budgeting and revenue and local box office revenues across different regions and languages. This research analyzes worldwide movie patterns alongside financial behavior that occurred throughout multiple years.
 2. Problem Statement  
