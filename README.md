@@ -72,5 +72,5 @@ Implementation Steps:
 * Added interactivity: hover tooltips, clickable legends, filters
 * Embedded visualizations into a webpage
 7. Results and Analysis  
-Tableau: https://public.tableau.com/app/profile/meghana.sadhu7906/viz/MoviesAnalysis_17456910231620/MoviesreleasedperYear
+Tableau: https://public.tableau.com/app/profile/meghana.sadhu7906/viz/MoviesAnalysis_17456910231620/MoviesreleasedperYear  
 Webpage : https://meghanasadhu.github.io/movie-trends-analysis/index.html
