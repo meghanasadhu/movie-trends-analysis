@@ -14,9 +14,9 @@ The project assesses global developments regarding movie genres and revenue patt
 
 4. Data Abstraction  
 Dataset Details:
-Type: Structured Dataset
-Dataset 1: https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset
-Dataset 2: https://www.kaggle.com/datasets/aditya126/movies-box-office-dataset-2000-2024
+Type: Structured Dataset  
+Dataset 1: https://www.kaggle.com/datasets/ashpalsingh1525/imdb-movies-dataset  
+Dataset 2: https://www.kaggle.com/datasets/aditya126/movies-box-office-dataset-2000-2024  
 
 Merged Dataset Attributes:
 names, date_x, score, genre, overview, crew, orig_title, status, orig_lang, budget_x, revenue, country, year, primary_genre, Rank, movie_name, worldwide_gross, domestic_gross, Domestic, foreign_gross, Foreign, Rating, Vote_Count, Production_Countries
